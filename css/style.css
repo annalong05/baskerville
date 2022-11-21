@@ -17,11 +17,12 @@ body {
 
 section, header, footer {
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
 }
 
 section {
+    margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
@@ -43,6 +44,7 @@ h1 {
 h2 {
     font-size: 1.999rem;
     margin: 1rem 0 3rem 0;
+    margin-bottom: 1.4rem;
 }
 
 blockquote {
@@ -104,6 +106,46 @@ nav a:hover {
     color: rgb(112, 65, 112);
     transition: all 0.3s ease-in-out;
 }
+/*-- Styling table--*/
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+caption {
+    margin: 1.5em 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
+    color: #f7f7f7;
+    background: rgb(64, 30, 64);
+}
+
+th, td {padding: 0.4em;}
+
+table, td {
+    background: rgb(212, 184, 212);
+
+    border: 2px solid #f7f7f7;
+}
+
+/*-- Images --*/
+img {
+    display: block;
+    margin: 3rem 0 2em 0;
+    padding: 0;
+    max-width: 100%;
+}
+
 /*-- Styling the footer --*/
 
 footer {
